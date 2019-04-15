@@ -6,6 +6,9 @@ Creaky little scripts to compare our local authorities to LC.
  * files of lccns are output to `./out`
  * produces a venn diagram
 
+![subjects](https://raw.githubusercontent.com/pulibrary/naco_comparisons/master/images/sub_venn.png)
+![names](https://raw.githubusercontent.com/pulibrary/naco_comparisons/master/images/names_venn_201904.png)
+
 ## Voyager vs. id.loc(+Ward) 2019
 The basic process ...
 
