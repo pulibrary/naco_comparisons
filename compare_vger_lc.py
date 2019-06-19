@@ -214,7 +214,7 @@ if __name__ == "__main__":
 	parser.add_argument("-v", "--verbose", required=False, default=False, dest="verbose", action="store_true", help="Runtime feedback.")
 	parser.add_argument("-n", "--names", required=False, default=False, dest="names", action="store_true", help="Get URIs for names.")
 	parser.add_argument("-s", "--subjects", required=False, default=False, dest="subjects", action="store_true", help="Get URIs for subjects.")
-	parser.add_argument("-r", "--voyager", required=False, default=False, dest="voyager", action="store_true", help="Get URIs for subjects.")
+	parser.add_argument("-r", "--voyager", required=False, default=False, dest="voyager", action="store_true", help="Get fresh list of auth ids from vger.")
 	args = vars(parser.parse_args())
 	subjects = args['subjects']
 	names = args['names']
