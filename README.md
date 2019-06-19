@@ -1,10 +1,10 @@
 # Authorities Comparison
 
-Creaky little scripts to compare our local authorities to LC. 
+Creaky little scripts to compare our local authorities to LC. May be refined as part of our data quality efforts. 
 * `get_uris_from_dump.py` for names and subjects on the same machine as the triplestore (Fuseki)
 * `compare_vger_lc.py -[sn][v][r]`
  * files of lccns are output to `./out`
- * produces a venn diagram
+ * produces venn diagrams (see below: subjects on the left, names on the right)
 
 ![subjects](https://raw.githubusercontent.com/pulibrary/naco_comparisons/master/images/sub_venn.png)
 ![names](https://raw.githubusercontent.com/pulibrary/naco_comparisons/master/images/names_venn_201904.png)
